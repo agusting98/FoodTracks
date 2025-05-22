@@ -1,0 +1,578 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.product-container {
+  width: 100%;
+  height: 900px;
+  background: url("../images/v191_672.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.product-background {
+  width: 100%;
+  height: 900px;
+  background: url("../images/v191_673.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.product-overlay {
+  width: 100%;
+  height: 900px;
+  background: rgba(255, 255, 255, 1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.product-image {
+  width: 508px;
+  height: 543px;
+  background: url("../images/v191_675.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 225px;
+  left: 133px;
+  overflow: hidden;
+}
+.product-title {
+  width: 490px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 458px;
+  left: 688px;
+  font-family: Instrument Sans;
+  font-weight: Regular;
+  font-size: 64px;
+  opacity: 1;
+  text-align: left;
+}
+.restaurant-name {
+  width: 369px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 592px;
+  left: 694px;
+  font-family: Inter;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.product-price {
+  width: 147px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 710px;
+  left: 693px;
+  font-family: Inter;
+  font-weight: Bold;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.branch-selection {
+  width: 221px;
+  height: 45px;
+  background: rgba(0, 0, 0, 1);
+  opacity: 1;
+  position: absolute;
+  top: 536px;
+  left: 689px;
+  border-radius: 100px;
+  overflow: hidden;
+}
+.branch-label {
+  width: 172px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 544px;
+  left: 703px;
+  font-family: Inter;
+  font-weight: Regular;
+  font-size: 22px;
+  opacity: 1;
+  text-align: left;
+}
+.branch-options {
+  width: 100%;
+  height: 60px;
+  background: url("../images/v191_681.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin: 1038px;
+  opacity: 1;
+  position: absolute;
+  top: 15px;
+  left: 50px;
+  overflow: hidden;
+}
+.branch-option {
+  width: 206px;
+  height: 30px;
+  background: url("../images/v191_682.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 15px;
+  left: 31px;
+  overflow: hidden;
+}
+.branch-name {
+  width: 126px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  font-family: Jaro;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.branch-type {
+  width: 48px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 6px;
+  left: 158px;
+  font-family: Istok Web;
+  font-weight: Regular;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+.branch-icon {
+  width: 60px;
+  height: 60px;
+  background: url("../images/v191_685.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 1275px;
+  overflow: hidden;
+}
+.branch-placeholder {
+  width: 60px;
+  height: 60px;
+  background: rgba(236, 236, 236, 1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 50%;
+}
+.comment-divider {
+  width: 0px;
+  height: 1px;
+  background: url("../images/v191_688.png");
+  opacity: 1;
+  position: absolute;
+  top: 557px;
+  left: 895px;
+  border: 2px solid rgba(255, 255, 255, 1);
+}
+.comments-section {
+  width: 100%;
+  height: 900px;
+  background: url("../images/v191_689.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 900px;
+  left: 0px;
+  overflow: hidden;
+}
+.comment-background {
+  width: 100%;
+  height: 900px;
+  background: rgba(255, 255, 255, 1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.comment-image {
+  width: 100%;
+  height: 537px;
+  background: url("../images/v191_691.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 264px;
+  left: 155px;
+  overflow: hidden;
+}
+.comment-box {
+  width: 972px;
+  height: 84px;
+  background: rgba(231, 231, 231, 1);
+  opacity: 1;
+  position: absolute;
+  top: 453px;
+  left: 0px;
+  border-radius: 60px;
+  overflow: hidden;
+}
+.comment-icon {
+  width: 80px;
+  height: 80px;
+  background: rgba(217, 217, 217, 1);
+  opacity: 1;
+  position: absolute;
+  top: 455px;
+  left: 1006px;
+  border-radius: 60px;
+  overflow: hidden;
+}
+.commenter-name {
+  color: #fff;
+}
+.comment-placeholder {
+  width: 80px;
+  height: 80px;
+  background: rgba(217, 217, 217, 1);
+  opacity: 1;
+  position: absolute;
+  top: 3px;
+  left: 32px;
+  border-radius: 50%;
+}
+.comment-text-box {
+  width: 386px;
+  height: 40px;
+  background: rgba(236, 236, 236, 1);
+  opacity: 1;
+  position: absolute;
+  top: 3px;
+  left: 130px;
+  overflow: hidden;
+}
+.comment-image-icon {
+  width: 66px;
+  height: 76px;
+  background: url("../images/v191_697.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 39px;
+  overflow: hidden;
+}
+.comment-image-background {
+  width: 80px;
+  height: 80px;
+  background: url("../images/v191_698.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 454px;
+  left: 1007px;
+  overflow: hidden;
+}
+.comment-label {
+  width: 180px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 13px;
+  left: 144px;
+  font-family: Instrument Sans;
+  font-weight: Regular;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.comment-title {
+  width: 382px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 171px;
+  left: 144px;
+  font-family: Instrument Sans;
+  font-weight: Regular;
+  font-size: 64px;
+  opacity: 1;
+  text-align: left;
+}
+.footer-background {
+  width: 100%;
+  height: 60px;
+  background: rgba(228, 228, 228, 1);
+  margin: 1038px;
+  opacity: 1;
+  position: absolute;
+  top: 43px;
+  left: 36px;
+  border-radius: 100px;
+  overflow: hidden;
+}
+.footer-image {
+  width: 206px;
+  height: 30px;
+  background: url("../images/v191_702.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 15px;
+  left: 31px;
+  overflow: hidden;
+}
+.footer-name {
+  width: 123px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  font-family: Jaro;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.footer-type {
+  width: 48px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 6px;
+  left: 158px;
+  font-family: Istok Web;
+  font-weight: Regular;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+.footer-icon {
+  width: 60px;
+  height: 60px;
+  background: url("../images/v191_705.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 1275px;
+  overflow: hidden;
+}
+.footer-placeholder {
+  width: 60px;
+  height: 60px;
+  background: rgba(49, 49, 49, 1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 50%;
+}
+.footer-image-icon {
+  width: 40px;
+  height: 40px;
+  background: url("../images/v191_707.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  overflow: hidden;
+}
+.footer-circle {
+  width: 150px;
+  height: 150px;
+  background: rgba(57, 29, 25, 1);
+  opacity: 1;
+  position: absolute;
+  top: 716px;
+  left: 1223px;
+  border-radius: 50%;
+}
+.footer-image-background {
+  width: 100px;
+  height: 100px;
+  background: url("../images/v191_709.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 741px;
+  left: 1248px;
+  overflow: hidden;
+}
+.footer-rounded {
+  width: 107px;
+  height: 31px;
+  background: rgba(217, 217, 217, 1);
+  opacity: 1;
+  position: absolute;
+  top: 313px;
+  left: 285px;
+  border-radius: 100px;
+  overflow: hidden;
+}
+.footer-label {
+  width: 85px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 320px;
+  left: 297px;
+  font-family: Instrument Sans;
+  font-weight: Regular;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.footer-rounded-second {
+  width: 126px;
+  height: 31px;
+  background: rgba(217, 217, 217, 1);
+  opacity: 1;
+  position: absolute;
+  top: 313px;
+  left: 400px;
+  border-radius: 100px;
+  overflow: hidden;
+}
+.footer-label-second {
+  width: 104px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 320px;
+  left: 412px;
+  font-family: Instrument Sans;
+  font-weight: Regular;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.footer-circle-second {
+  width: 150px;
+  height: 150px;
+  background: rgba(57, 29, 25, 1);
+  opacity: 1;
+  position: absolute;
+  top: 716px;
+  left: 1223px;
+  border-radius: 50%;
+}
+.footer-image-background-second {
+  width: 100px;
+  height: 100px;
+  background: url("../images/v191_715.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 741px;
+  left: 1248px;
+  overflow: hidden;
+}
+.footer-icon-second {
+  width: 63px;
+  height: 63px;
+  background: url("../images/v191_716.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 685px;
+  left: 1111px;
+  overflow: hidden;
+}
+.footer-background-second {
+  width: 63px;
+  height: 63px;
+  background: rgba(0, 0, 0, 1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 50%;
+}
+.footer-image-icon-second {
+  width: 39px;
+  height: 39px;
+  background: url("../images/v191_718.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 12px;
+  left: 11px;
+  overflow: hidden;
+}
+.footer-icon-third {
+  width: 63px;
+  height: 63px;
+  background: url("../images/v191_719.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 685px;
+  left: 1036px;
+  overflow: hidden;
+}
+.footer-background-third {
+  width: 63px;
+  height: 63px;
+  background: rgba(0, 0, 0, 1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 50%;
+}
+.footer-image-icon-third {
+  width: 50px;
+  height: 44px;
+  background: url("../images/v191_721.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 9px;
+  left: 6px;
+  overflow: hidden;
+}

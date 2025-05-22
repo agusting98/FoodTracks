@@ -1,0 +1,135 @@
+Documentación -- Proyecto/App Web
+
+Nombre del Proyecto: FoodTruck's
+Descripción del Proyecto: E-Commerce de alimentos, en donde se indexen los combos y ofertas de restaurantes cercanas a la ubicación (Cadenas de alimentos, supermercados, farmacias)
+Tecnologias Utilizadas: Machine Learning, Figma UI, Angular, JS, CSS3, HTML5, NodeJS, SQL, POSTGREESQL, Python, GitHub, Electron.
+Formato: Responsive (SmartPhone, Tablet, PC)
+
+Idioma: Español/Ingles
+Tema:   Claro/Oscuro
+
+
+Componentes del Proyecto:
+- Index          (Sección introductoria de la pagina, breve descripción)
+- Tienda         (Indexación de elementos)
+- Comentarios    (Sección de Comentarios)
+- Clasificación  (Clasificar pedidos)
+- Asistente      (Contacto con Soporte, Bots)
+- Buscador       (barra de búsqueda por filtros y categorías los mismos
+- Recomendación  (Recomendar productos a tu gusto)
+- Carrito        (Agregar elementos de compra, ya sea para continuar la compra mas adelante)
+- Login          (Inicio de Sesión, Registro, permitir entrar con Google o Facebook, olvidaste tu contraseña)
+- Notificaciones (Si el pedido llego de forma correspondiente, etc)
+- Checkout       (Medio de pago y formulación para completarlo)
+
+Diseño UI:
+
+
+Machine Learning:
+
+
+
+Estructura del Proyecto:
+(En angular)
+
+src/
+├── app/
+│   ├── shared/
+│   │   ├── footer/
+│   │   ├── support/
+│   │   ├── nav/
+│   │   ├── authentication/
+│   │   └── checkout/
+│   ├── home/
+│   │   ├── home.component
+│   │   ├── init/
+│   │   ├── method-pays/
+│   │   ├── offerts/
+│   │   └── products/
+│   ├── market/
+│   │   ├── market.component
+│   │   ├── main/
+│   │   │   ├── products/
+│   │   │   ├── offerts/
+│   │   │   ├── products-items/
+│   │   │   └── search-filter/
+│   │   └── section-product/
+│   │       ├── product-details/
+│   │       └── product-comment/
+└──
+
++ En paginas:
+
+Landing Page
+Index/Home
+!
+!__ Tienda
+!   (Tablero de Productos)
+!    !__ Buscador de productos
+!    !__ Visualizacion de productos
+!         !_(Comentarios)
+!         !_(Clasificación)
+!
+!__ Asistente
+!
+!__ Login
+
+
+Dashboard
+Index/Home
+!
+!__ Tienda
+!   (Tablero de Productos)
+!    !__ Buscador de productos
+!    !__ Visualizacion de productos
+!         !_(Comentarios)
+!         !_(Clasificación)
+!
+!
+!__ Asistente
+!
+!__ Carrito
+!
+!__ Cuenta
+    (Tablero de modificar datos)
+     !__ Checkout
+
+
+
++ En carpetas
+
+
+Historial o elementos de creación:
+
+06/04/25 - Se define estructura del proyecto (Landing/Dashboard)
+         - Creación de Proyecto en Figma
+         - Creación de Paginas en Figma
+         - Modificación de SiteMapping
+         - Modificación de WireFrames (Figma)
+
+08/04/25 - Maquetación de Pagina Index
+         - Maquetación de Sección Products
+         - Maquetación de Sección Offerts
+         - Maquetación de Sección Method Pays
+
+09/04/25 - Maquetación de Sección Footer.
+         - Maquetación de Componente Login.
+
+
+10/04/25 - Maquetación de Componente Login.
+         - Maquetación de Componente Carrito.
+         - Maquetación de Componente Chat para soporte.
+         - Maquetación de Componente Metodos de pago.
+
+29/04/25 - Maquetación de Sección Search Product
+         - Maquetación de Filter Search Product
+
+06/05/25 - Maquetación de Comprar Productos
+         - Maquetación de Sección de Comentarios (Market)
+         - Diseño UI de Pagina Index - Introduction.
+
+
+
+Creditos y Licencia:
+Autor: Agustin Gallardo
+Licencia: Propietaria
