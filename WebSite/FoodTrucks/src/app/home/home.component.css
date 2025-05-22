@@ -1,0 +1,14 @@
+.vertical-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 32px; /* Espacio entre los componentes */
+  padding: 32px;
+}
+
+.vertical-layout app-init,
+.vertical-layout app-products,
+.vertical-layout app-offerts,
+.vertical-layout app-method-pays {
+  display: block;
+  width: 100%;
+}

@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+  font-family: 'Jost', sans-serif;
+}
+
+.features-section {
+  width: 100%;
+  margin: 69px auto;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+.features-title {
+  color: #000;
+  font-size: 32px;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 40px;
+}
+
+.features-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.feature-item {
+  width: 199px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.feature-icon {
+  width: 150px;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 15px;
+}
+
+/* Íconos específicos por item */
+.feature-item:nth-child(1) .feature-icon {
+  background-image: url('./images/item-recommendation-1.png');
+}
+
+.feature-item:nth-child(2) .feature-icon {
+  background-image: url('./images/item-recommendation-2.png');
+}
+
+.feature-item:nth-child(3) .feature-icon {
+  background-image: url('./images/item-recommendation-3.png');
+}
+
+.feature-item:nth-child(4) .feature-icon {
+  background-image: url('./images/item-recommendation-4.png');
+}
+
+.feature-heading {
+  color: #000;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.feature-description {
+  color: #000;
+  font-size: 18px;
+  padding: 0 10px;
+}
